@@ -1,0 +1,28 @@
+# Local environment configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Airflow runtime-generated files
+logs/
+config/
+airflow.db
+airflow-webserver.pid
+
+# Python bytecode, virtual environments, and tooling caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
